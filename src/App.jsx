@@ -5,7 +5,7 @@ import { UserContextProvider } from "./context/userContex";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <UserContextProvider>
         <ProductContextProvider>
           <Principal />
